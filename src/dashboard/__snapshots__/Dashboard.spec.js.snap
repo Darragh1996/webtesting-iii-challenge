@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders expected elements properly -> AFTER CLOSE GATE BUTTON IS CLICKED 1`] = `
+<div>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders expected elements properly -> AFTER CLOSE GATE WAS CLICKED AND LOCK GATE WAS THEN CLICKED 1`] = `
+<div>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led red-led"
+    >
+      Locked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Unlock Gate
+    </button>
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Open Gate
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders expected elements properly-> DEFAULT 1`] = `
+<div>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</div>
+`;
